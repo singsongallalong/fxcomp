@@ -25,6 +25,12 @@ The rows can describe different parts of one evolution. Direction of influence, 
 
 **The order of individually small motions matters.** Where deformation flows do not commute, a little loop of forward and reverse motions can leave a residual displacement. To leading order the residual scales with the loop area and a Lie bracket, up to the orientation convention. A player first sees the same local gestures seemingly cancel. The leftover rotation or translation reveals what their order accomplished. [Geometric phase](../ideas/geometric-phase.md)
 
+## A connection between dephasing and geometric phase
+
+Suppose two small shape modes trace $q_1=a\cos\theta$ and $q_2=b\cos(\theta-\delta)$. For fixed lag their stroke encloses signed area $\pi ab\sin\delta$. For a smooth shape connection with nonzero curvature in these directions, the leading geometric displacement is proportional to this signed area. When the modes move in step, the contour visibly flexes through its full range along a reciprocal stroke and returns to its pose. A quarter-cycle lag opens the stroke into an ellipse. Changing the sign of the lag reverses its orientation and the leading drift. [Shapere & Wilczek](https://doi.org/10.1017/S002211208900025X)
+
+One speculative extension is to let the modes be slightly detuned. Over one fast cycle the relative phase is almost frozen. Over a beat it sweeps through both orientations, so the leading stroke-averaged drift can wax, vanish and reverse while the outline continues flexing at nearly constant amplitude. The observable is now *motion caused by dephasing*. Its quiet precursor is a small lag between two identifiable gestures. This inference uses small strokes and slow detuning. The exact two-frequency path generally stays open over an individual fast cycle.
+
 ## Two different kinds of economy
 
 A volume full of filaments can inherit the same large-scale motion from one carrier field. Much of its apparent complexity resides in how many distinct markings reveal that one motion. A hard-edged network can be sparse yet expensive to describe by hand because every neighbor exchange changes future constraints. These are economies of description. The cost of a particular simulation or bake depends on its representation and desired resolution.
